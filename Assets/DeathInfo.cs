@@ -39,7 +39,7 @@ public class DeathInfo : MonoBehaviour
         {
             gameControl.highscore = gameControl.scoreTotal;
         }
-        highScore.text = string.Format("HIGH SCORE {0}", gameControl.highscore);
+        highScore.text = string.Format("HIGH SCORE: {0}", gameControl.highscore);
 
 
         gameControl.SavePlayerPrefs();     // spremanje podataka preko druge skripte
